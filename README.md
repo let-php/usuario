@@ -1,8 +1,8 @@
-## LetPHP - App Usuario
+# LetPHP - App Usuario
 
 
 
-### Descripción
+## Descripción
 
 Creamos una App de Usuario en donde los usuarios pueden hacer: 
 
@@ -12,7 +12,7 @@ Creamos una App de Usuario en donde los usuarios pueden hacer:
 
 
 
-### Librerías que utilizamos
+##Librerías que utilizamos
 
 Es una aplicación muy básica pero trabajamos con algunas clases que nos ofrece **LetPHP** las cuales son :
 

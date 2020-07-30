@@ -1,0 +1,141 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root{
+	
+	--font-primary: 'Open Sans', sans-serif;
+		
+}
+
+
+body{
+	font-family: var(--font-primary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container{
+	background: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	width: 400px;
+}
+
+.form{
+	padding: 2em 1em;
+}
+
+.form h1{
+	text-align: center;
+	margin: 0 0 20px;
+	color: #212121;
+	font-weight: 700;
+	font-size: 1.6em;
+}
+
+.form .form-control{
+	margin-bottom: .5em;
+	padding-bottom: .5em;
+	position: relative
+}
+
+.form-control label{
+	color: #777;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form input,
+.form select{
+	border: 2px solid #f0f0f0;
+	border-radius: 4px ;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.form-control input:focus{
+	outline: 0;
+	border-color: #182f53;
+}
+
+button{
+	cursor: pointer;
+	background: #FF5976;
+	border: 2px solid #FF5976;
+	border-radius: 4px;
+	color: #FFF;
+	display: block;
+	font-size: 16px;
+	padding: .8em;
+	margin-top: .5em;
+	width: 100%;
+}
+
+.link{
+	border-top: 1px solid #EEE;
+	color: #FF5976;
+	text-decoration: none;
+	display: block;
+	padding-top: .3em;
+	margin-top: .8em;
+	text-align: center;
+}
+
+
+.card-perfil
+{
+	background: #212121;
+}
+
+.card-perfil-imagen
+{
+	text-align: center;
+}
+
+.card-perfil-imagen img{
+	width: 50%;
+	height: 50%;
+}
+
+
+.card-perfil ul li{
+	background: #F4F4F4;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: #FFF 1px solid ;
+	padding: .5em;
+}
+
+.card-perfil ul li .texto{
+	color: #212121;
+	font-weight: bold;
+}
+
+
+.link-cerrar{
+	color: #FF5976;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.mensaje-error{
+	color: #E75A5F;
+	font-size: .9em;
+	font-weight: 700;
+	margin: .5em 0;
+	padding: .2em;
+}
+
+
+
+
+
+
+
+
+

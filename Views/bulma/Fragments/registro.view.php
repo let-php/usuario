@@ -88,7 +88,7 @@
 	<hr/>
 	<a href="{route link='usuario.login'}" class="has-text-primary has-text-weight-bold" >Iniciar Sesión</a>
 			
-	
+	{Usuario_ChangeTheme}
 	
 			
 </form>

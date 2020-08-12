@@ -53,5 +53,5 @@
 			<button type="submit" >Registrar</button>
 			<a href="{route link='usuario.login'}" class="link" >Iniciar Sesión</a>
 			
-			
+			{Usuario_ChangeTheme}
 </form>

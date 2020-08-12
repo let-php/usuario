@@ -75,11 +75,34 @@ class Index_Controller
 			];
 		}
 		
+		$sImageUser = Router()->getDomain(). 'LetApps/usuario/Public/image/user.png';
+		$aMeta = [
+			'viewport' => 'width=device-width, initial-scale=1.0',
+			'author' => 'Rodrigo Hernández Ortiz',
+			'keywords' => 'videos, letphp, roni, letcode, letphp, tutorial, proyectos, app, usuario, login, registro',
+			'description' => "Usuario: es una App creada con LetPHP donde el Usuario puede crear una cuenta e iniciar sesión para ingresar a su perfil.",
+			'og:title' => 'App de Usuario: App creada con LetPHP para registro de usuarios',
+			'og:description' => "App de Usuario: es una App creada con LetPHP donde el Usuario puede crear una cuenta e iniciar sesión para ingresar a su perfil.",
+			'og:type' => 'article',
+			'og:url' => Router()->getDomain(),
+			'og:image' => $sImageUser,
+			'og:image:alt' => 'Login y Registro de Usuarios',
+			'twitter:card' => 'summary',
+			'twitter:site' => '@letphp',
+			'twitter:creator' => '@RoniRHO',
+			'twitter:image' => $sImageUser
+		];
+		
 		
 		View()
+		->setMeta($aMeta)
+		->setTitle('App de Usuario')
 		->setCss($aCss)
 		->setJScript([
-			'<script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>'
+			'<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>',
+			'<script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>',
+			'letphp.js' => 'site',
+			'ajax.js' => 'site'
 		])
 		->setValues([
 			'aPaises' => $aPaises,

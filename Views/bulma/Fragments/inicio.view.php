@@ -40,7 +40,4 @@
 	</button>
 	<hr/>
 	<a href="{route link=''}" class="has-text-primary has-text-weight-bold" >Crear una cuenta en {name}</a>
-	
-	
-			
 </form>
